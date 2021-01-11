@@ -300,7 +300,10 @@ body{
   @media(max-width: 991px){
       .bannner{
           padding:50px;
-      }  
+      } 
+      body {
+        overflow-y: scroll;
+    }
       .banner header{
           padding: 20px 50px;
       }
